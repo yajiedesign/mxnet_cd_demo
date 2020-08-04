@@ -39,7 +39,7 @@ class BinaryDistribution(Distribution):
 
 DEPENDENCIES = [
     'numpy<1.17.0,>=1.8.2',
-    'requests<2.19.0,>=2.18.4',
+    'requests>=2.20.0',
     'graphviz<0.9.0,>=0.8.1'
 ]
 
